@@ -1,6 +1,7 @@
 :80
+geoip /usr/share/GeoIp/GeoLite2-City.mmdb
 gzip
-log stdout
-errors stdout
+log /var/log/access.log
+errors /var/log/error.log
 root /var/www
 browse
