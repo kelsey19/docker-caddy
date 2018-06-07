@@ -1,4 +1,5 @@
 # Dockerfile for Caddy
+[![](https://images.microbadger.com/badges/image/kelsey19/docker-caddy.svg)](https://microbadger.com/images/kelsey19/docker-caddy)[![](https://images.microbadger.com/badges/version/kelsey19/docker-caddy.svg)](https://microbadger.com/images/kelsey19/docker-caddy)[![](https://images.microbadger.com/badges/commit/kelsey19/docker-caddy.svg)](https://microbadger.com/images/kelsey19/docker-caddy)
 
 Includes the following plugins:
 
