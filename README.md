@@ -26,7 +26,7 @@ Includes the following plugins:
 * http.webdav
 
 
-##How to run
+## How to run
 
 ```
 docker run \
