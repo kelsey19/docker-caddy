@@ -46,6 +46,8 @@ RUN mkdir -p /usr/share/GeoIp/ \
 
 FROM alpine:3.7
 
+RUN apk --update --no-cache add ca-certificates
+
 COPY --from=0 /usr/share/GeoIp/GeoLite2-City.mmdb /usr/share/GeoIp/
 COPY --from=0 /go/src/github.com/mholt/caddy/caddy /usr/local/bin/
 COPY ./Caddyfile /etc/caddy/
