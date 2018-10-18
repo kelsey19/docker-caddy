@@ -13,7 +13,7 @@ RUN apk --no-cache add wget git \
 \t_ "github.com/payintech/caddy-datadog" // http.datadog\n \
 \t_ "github.com/linkonoid/caddy-dyndns" // dyndns\n \
 \t_ "github.com/epicagency/caddy-expires" // http.expires\n \
-\t_ "github.com/filebrowser/filebrowser/caddy/filemanager" // http.filemanager\n \
+\t_ "github.com/filebrowser/caddy/filemanager" // http.filemanager\n \
 \t_ "github.com/echocat/caddy-filter" // http.filter\n \
 \t_ "github.com/caddyserver/forwardproxy" // http.forwardproxy\n \
 \t_ "github.com/kodnaplakal/caddy-geoip" // http.geoip\n \
@@ -50,7 +50,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 LABEL org.label-schema.build-date=$BUILD_DATE \
-      org.label-schema.vcs-url="https://github.com/kelsey19/docker-caddy" \
+      org.label-schema.vcs-url="https://github.com/sithladyraven/docker-caddy" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.schema-version="1.0"
 
